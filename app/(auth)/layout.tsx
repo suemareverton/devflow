@@ -14,14 +14,14 @@ const AuthLayout = ({ children }: { children: ReactNode }) => {
               To get your questions answered
             </p>
           </div>
+          <Image
+            src="images/site-logo.svg"
+            alt="DevFlow Logo"
+            width={50}
+            height={50}
+            className="object-contain"
+          />
         </div>
-        <Image
-          src="images/site-logo.svg"
-          alt="DevFlow Logo"
-          width={50}
-          height={50}
-          className="object-contain"
-        />
 
         {children}
 
